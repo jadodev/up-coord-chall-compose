@@ -9,6 +9,20 @@ Este proyecto se compone de varios repositorios que conforman la arquitectura co
 
 Clona los siguientes repositorios en el directorio raíz de tu proyecto:
 
+#### copia y pega esto en tu terminal de gitbash o compatible con bash:
+
+```plaintext
+git clone git@github.com:jadodev/up-coord-chall-compose.git &
+git clone git@github.com:jadodev/ms-user-management-service.git &
+git clone git@github.com:jadodev/ms-shipment-service.git &
+git clone git@github.com:jadodev/ms-driver-operations.git &
+git clone git@github.com:jadodev/ms-dispatch-service.git &
+git clone git@github.com:jadodev/ms-delivery-status.git &
+git clone git@github.com:jadodev/api-gateway-compose.git &
+
+wait
+```
+
 - [ms-user-management](https://github.com/jadodev/ms-user-management-service)
 - [ms-dispatch-service](https://github.com/jadodev/ms-dispatch-service)
 - [ms-delivery-status](https://github.com/jadodev/ms-delivery-status)
