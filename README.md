@@ -9,7 +9,7 @@ Este proyecto se compone de varios repositorios que conforman la arquitectura co
 
 Clona los siguientes repositorios en el directorio raíz de tu proyecto:
 
-- [ms-user-management](https://github.com/jadodev/ms-user-management)
+- [ms-user-management](https://github.com/jadodev/ms-user-management-service)
 - [ms-dispatch-service](https://github.com/jadodev/ms-dispatch-service)
 - [ms-delivery-status](https://github.com/jadodev/ms-delivery-status)
 - [ms-driver-operations](https://github.com/jadodev/ms-driver-operations)
