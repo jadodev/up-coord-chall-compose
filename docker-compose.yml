@@ -109,11 +109,11 @@ services:
       - app-network
 
   api-gateway:
-    build: ../api-gateway-coord
-    container_name: api-gateway-coord
+    build: ../api-gateway-compose 
+    container_name: api-gateway-compose 
     working_dir: /app
     volumes:
-      - ../api-gateway-coord:/app
+      - ../api-gateway-compose:/app
     environment:
       - PORT=5000
       - REDIS_URL=redis://redis:6379
