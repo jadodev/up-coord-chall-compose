@@ -72,7 +72,7 @@ localhost:5000/health
 
 ## Diagrama de Arquitectura
 
-![Diagrama de Arquitectura](./architecture-diagram.svg)
+![Diagrama de Arquitectura](./assets/Diagram.svg)
 
 ## Visión General
 
