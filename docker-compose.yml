@@ -89,6 +89,25 @@ services:
     networks:
       - app-network
 
+  ms-user-management-service:
+    build: ../ms-user-management-service
+    container_name: ms-user-management-service
+    working_dir: /app
+    volumes:
+      - ../ms-user-management-service:/app
+    environment:
+      - PORT=7000
+      - DB_HOST=mysql
+      - DB_USER=root
+      - DB_PASSWORD=root
+      - DB_NAME=mydb
+    ports:
+      - "7000:7000"
+    depends_on:
+      - mysql
+    networks:
+      - app-network
+
   api-gateway:
     build: ../api-gateway-coord
     container_name: api-gateway-coord
